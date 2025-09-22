@@ -1,0 +1,10 @@
+- description: All queries for comprehensive Rust WebAssembly analysis
+  queries:
+    - queries/security/UnsafeWasmCode.ql
+    - queries/security/MissingWasmInputValidation.ql
+    - queries/performance/InefficientDataTransfer.ql
+    - queries/best-practices/ProperErrorHandling.ql
+  tags:
+    - webassembly
+    - rust
+    - javascript

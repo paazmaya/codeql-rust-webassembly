@@ -1,0 +1,6 @@
+- description: Performance-focused queries for Rust WebAssembly projects
+  queries:
+    - queries/performance/InefficientDataTransfer.ql
+  tags:
+    - performance
+    - webassembly

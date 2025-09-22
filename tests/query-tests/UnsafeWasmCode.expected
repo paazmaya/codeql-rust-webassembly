@@ -1,0 +1,2 @@
+| tests/test-data/rust-src/lib.rs:5:5:9:6 | Unsafe code block in WebAssembly-exported function may lead to memory safety issues |
+| tests/test-data/rust-src/lib.rs:27:5:31:6 | Unsafe code block in WebAssembly-exported function may lead to memory safety issues |

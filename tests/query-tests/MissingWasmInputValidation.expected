@@ -1,0 +1,5 @@
+| tests/test-data/js-src/main.js:7:27:7:75 | WebAssembly function call lacks input validation for argument: userInput |
+| tests/test-data/js-src/main.js:10:5:10:32 | WebAssembly function call lacks input validation for argument: data |
+| tests/test-data/js-src/main.js:18:12:18:49 | WebAssembly function call lacks input validation for argument: largeArray |
+| tests/test-data/js-src/main.js:44:16:44:48 | WebAssembly function call lacks input validation for argument: rawData |
+| tests/test-data/js-src/main.js:52:9:52:63 | WebAssembly function call lacks input validation for argument: event.clientX |

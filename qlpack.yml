@@ -1,0 +1,12 @@
+name: paazmaya/rust-webassembly
+version: 0.1.0
+description: CodeQL queries for Rust WebAssembly projects with web technologies
+license: MIT
+library: false
+warnOnImplicitThis: false
+
+dependencies:
+  codeql/rust-all: "0.1.15"
+  githubsecuritylab/codeql-javascript-libs: "0.2.1"
+
+suites: ./query-suites

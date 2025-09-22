@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Hello WASM Test</title>
+</head>
+<body>
+    <h1>WebAssembly Test Page</h1>
+    
+    <div>
+        <label for="user-input">Enter a number:</label>
+        <input type="text" id="user-input" value="42">
+        <button id="process-btn" data-value="123">Process</button>
+    </div>
+    
+    <div>
+        <label for="data-input">Upload data:</label>
+        <input type="file" id="data-input">
+    </div>
+    
+    <div id="output"></div>
+    
+    <script type="module" src="index.js"></script>
+</body>
+</html>

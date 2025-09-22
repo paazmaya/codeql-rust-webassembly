@@ -1,0 +1,1 @@
+| tests/test-data/rust-src/lib.rs:19:1:22:2 | WebAssembly function returns Result but may not handle errors properly |

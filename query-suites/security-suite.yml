@@ -1,0 +1,7 @@
+- description: Security-focused queries for Rust WebAssembly projects
+  queries:
+    - queries/security/UnsafeWasmCode.ql
+    - queries/security/MissingWasmInputValidation.ql
+  tags:
+    - security
+    - webassembly
