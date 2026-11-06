@@ -8,6 +8,7 @@ extern "C" {
 }
 
 // A macro to provide `println!(..)`-style syntax for `console.log` logging.
+#[allow(unused_macros)]
 macro_rules! console_log {
     ( $( $t:tt )* ) => {
         log(&format!( $( $t )* ))
@@ -47,7 +48,7 @@ pub fn raw_pointer_access(offset: usize) -> u8 {
     unsafe {
         // Dangerous pointer arithmetic
         let base_ptr = 0x1000 as *const u8;
-        *base_ptr.offset(offset as isize)
+        *base_ptr.add(offset)
     }
 }
 
