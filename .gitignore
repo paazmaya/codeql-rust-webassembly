@@ -1,0 +1,10 @@
+# CodeQL build and test artifacts
+.codeql/
+test-db/
+*.bqrs
+*.sarif
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
